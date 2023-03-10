@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Port Lligat Slab', serif;
+}
+
+body{
+    background-color: #f0f8ff;
+}
+#nav-bar{
+    background-color: #becece50;
+    width: 100%;
+    padding: 15px;
+}
+.moda{
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0, 0, 0.7);
+    position: absolute;
+    bottom:0 ;
+}
+
+#flex-container{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+    flex-wrap: wrap;
+}
+.flex-item{
+    color: #222;
+    order: 0;
+}
+.flex-item:hover{
+    color: #f55;
+    cursor: pointer;
+}
+.grid-layout{
+    font-size: large;
+    padding: 0 10%;
+    display: grid;
+    grid-template-columns: 70% 30%; 
+    grid-template-rows: 100%;
+    bottom: 0;
+}
+
+.info{
+    border-right: 2px solid #222;
+    letter-spacing: .5mm;
+    padding-right: 25px;
+}
+#Minfo{
+    text-decoration: none;
+    color: #222;
+}
+#Minfo:hover{
+    color: #f55;
+}
+.video{
+    text-decoration: none;
+    color: #48e;
+}
+.video:hover{
+    color: rgba(13, 49, 102, 0.452);
+}
+#invadirPeru{
+    color: rgb(201, 40, 187);
+}
+.imagenGallo{
+    display: block;
+    margin: 0 auto;
+    height: 250px;
+    width: 300px;
+    border: 2px solid #999;
+}
+.footer{    
+    width: 100%;
+    padding: 15px;
+    position: absolute;
+    background-color: #becece50;
+    margin-top: 25px;
+}
+.anuncioSquid{
+    background: url("walter-squid.jpg");
+    display: block;
+    margin: 30px auto;
+    height: 300px;
+    width: 350px;
+}
